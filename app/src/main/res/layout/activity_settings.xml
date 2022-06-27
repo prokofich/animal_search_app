@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="#f02525"
+        android:text="настройки"
+        android:textSize="50dp"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/id_settings_redact"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#f02525"
+        android:text="редактировать личные данные"
+        android:layout_width="230dp"
+        android:layout_gravity="center"
+        android:layout_height="70dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/id_settings_tape_forredact"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/id_settings_help"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#f02525"
+        android:text="помощь"
+        android:layout_width="230dp"
+        android:layout_gravity="center"
+        android:layout_height="70dp"/>
+
+    <Button
+        android:id="@+id/id_settings_exit"
+        android:text="выйти"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#f02525"
+        android:layout_width="230dp"
+        android:layout_gravity="center"
+        android:layout_height="70dp"/>
+
+</LinearLayout>

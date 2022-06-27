@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/drawable/ic_account.xml" value="0.2203125" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/drawable/ic_lapa.xml" value="0.2203125" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/drawable/ic_launcherr_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/drawable/ic_launcherr_foregroundd.xml" value="0.2203125" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/drawable/ic_search.xml" value="0.2203125" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/drawable/lapa.xml" value="0.2203125" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/drawable/settings.xml" value="0.2203125" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/layout/activity_account.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/layout/activity_form_news.xml" value="0.2" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/layout/activity_form_news2.xml" value="0.22" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/layout/activity_found_animal.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/layout/activity_redact_data.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/layout/activity_registr.xml" value="0.22" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/layout/activity_settings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/layout/activity_tape.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/layout/fragment_account.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/layout/fragment_tape.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/layout/news_for_account.xml" value="0.2" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/layout/news_for_tape.xml" value="0.2" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/layout/window_for_redact_data.xml" value="0.25" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2203125" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/mipmap-anydpi-v26/ic_launcherr.xml" value="0.2203125" />
+        <entry key="..\:/Users/Prokofich/AndroidStudioProjects/RepetitorStore/app/src/main/res/mipmap-anydpi-v26/ic_launcherr_round.xml" value="0.2203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

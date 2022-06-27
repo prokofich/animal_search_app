@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/id_account_image"
+        android:layout_width="248dp"
+        android:layout_height="259dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/id_account_news_name"
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:backgroundTint="#f02525"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_200" />
+
+    <TextView
+        android:id="@+id/id_account_news_text"
+        android:layout_width="303dp"
+        android:backgroundTint="#f02525"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@color/purple_200" />
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/id_account_news_del"
+            android:layout_width="141dp"
+            android:layout_height="68dp"
+            android:layout_x="56dp"
+            android:layout_y="5dp"
+            android:backgroundTint="#f02525"
+            android:text="удалить" />
+
+        <Button
+            android:id="@+id/id_account_news_redact"
+            android:layout_width="143dp"
+            android:layout_height="68dp"
+            android:layout_x="214dp"
+            android:layout_y="5dp"
+            android:backgroundTint="#f02525"
+            android:text="редакт" />
+    </AbsoluteLayout>
+
+
+</LinearLayout>

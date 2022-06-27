@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="лента"
+        android:id="@+id/id_menu_lenta"
+        android:icon="@drawable/ic_search"/>
+
+    <item
+        android:title="аккаунт"
+        android:icon="@drawable/account"
+        android:id="@+id/id_menu_acc"/>
+
+
+</menu>

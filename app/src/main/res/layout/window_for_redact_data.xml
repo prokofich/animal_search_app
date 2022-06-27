@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="160dp">
+
+    <EditText
+        android:id="@+id/id_window_name"
+        android:layout_width="157dp"
+        android:layout_height="40dp"
+        android:layout_x="14dp"
+        android:layout_y="21dp"
+        android:backgroundTint="#f02525"
+        android:gravity="center"
+        android:hint="имя"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/id_window_lastname"
+        android:layout_width="218dp"
+        android:layout_height="40dp"
+        android:layout_x="180dp"
+        android:layout_y="21dp"
+        android:backgroundTint="#f02525"
+        android:gravity="center"
+        android:hint="фамилия"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/id_window_mobile"
+        android:layout_width="157dp"
+        android:layout_height="40dp"
+        android:layout_x="14dp"
+        android:layout_y="71dp"
+        android:backgroundTint="#f02525"
+        android:gravity="center"
+        android:hint="телефон"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/id_window_save"
+        android:layout_width="200dp"
+        android:backgroundTint="#f02525"
+        android:text="сохранить"
+        android:layout_height="40dp"
+        android:layout_x="104dp"
+        android:layout_y="123dp" />
+
+
+</AbsoluteLayout>

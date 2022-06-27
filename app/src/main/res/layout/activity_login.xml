@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:layout_width="327dp"
+        android:gravity="center"
+        android:textColor="#f02525"
+        android:text="Animal search"
+        android:textSize="50dp"
+        android:layout_height="100dp"
+        android:layout_x="41dp"
+        android:layout_y="32dp" />
+
+    <EditText
+        android:backgroundTint="#f02525"
+        android:id="@+id/id_login_et_email"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_x="78dp"
+        android:layout_y="165dp"
+        android:gravity="center"
+        android:hint="введите почту"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/id_login_et_password"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#f02525"
+        android:layout_x="78dp"
+        android:layout_y="247dp"
+        android:gravity="center"
+        android:hint="введите пароль"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/id_login_button_input"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_x="140dp"
+        android:layout_y="332dp"
+        android:backgroundTint="#f02525"
+        android:text="войти" />
+
+    <Button
+        android:id="@+id/id_login_button_registr"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_x="140dp"
+        android:layout_y="399dp"
+        android:backgroundTint="#f02525"
+        android:text="нет аккаунта" />
+
+    <ImageView
+        android:layout_width="286dp"
+        android:layout_height="264dp"
+        android:layout_x="60dp"
+        android:background="@drawable/lapa"
+        android:layout_y="455dp" />
+
+
+</AbsoluteLayout>

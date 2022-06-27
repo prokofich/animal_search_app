@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_x="0dp"
+        android:layout_y="20dp"
+        android:gravity="center"
+        android:text="Регистрация"
+        android:textColor="#f02525"
+        android:textSize="60dp" />
+
+    <EditText
+        android:id="@+id/id_reg_firstname"
+        android:backgroundTint="#f02525"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:layout_x="82dp"
+        android:layout_y="153dp"
+        android:gravity="center"
+        android:hint="введите имя"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:layout_x="82dp"
+        android:backgroundTint="#f02525"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/id_reg_email"
+        android:hint="введите почту"
+        android:layout_y="316dp" />
+
+    <EditText
+        android:id="@+id/id_reg_fullname"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#f02525"
+        android:layout_x="82dp"
+        android:layout_y="234dp"
+        android:gravity="center"
+        android:hint="введите фамилию"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:layout_x="83dp"
+        android:backgroundTint="#f02525"
+        android:id="@+id/id_reg_password"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:hint="введите пароль"
+        android:layout_y="404dp" />
+
+    <EditText
+        android:id="@+id/id_reg_mobile"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:layout_x="83dp"
+        android:backgroundTint="#f02525"
+        android:layout_y="491dp"
+        android:gravity="center"
+        android:hint="введите телефон"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/id_reg_button_registr"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#f02525"
+        android:layout_x="82dp"
+        android:layout_y="611dp"
+        android:text="зарегистрироваться" />
+
+
+</AbsoluteLayout>

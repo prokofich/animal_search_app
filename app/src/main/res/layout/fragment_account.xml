@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.AccountFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="220dp">
+
+                <ImageView
+                    android:id="@+id/id_acc_image"
+                    android:layout_width="190dp"
+                    android:layout_height="175dp"
+                    android:layout_marginLeft="110dp"
+                    android:layout_gravity="center"
+                    android:background="@color/black" />
+                <Button
+                    android:id="@+id/id_account_settings"
+                    android:layout_width="40dp"
+                    android:background="@drawable/settings"
+                    android:backgroundTint="#f02525"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="35dp"
+                    android:layout_height="40dp"/>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:text="username"
+                android:id="@+id/id_acc_username"
+                android:textColor="#f02525"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="50dp"/>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:text="mobile"
+                android:textColor="#f02525"
+                android:gravity="center"
+                android:id="@+id/id_acc_mobile"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="40dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/id_account_tape"
+                android:orientation="vertical"
+                android:layout_height="match_parent"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

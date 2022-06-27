@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "68409394180",
+    "project_id": "animalsave-99074",
+    "storage_bucket": "animalsave-99074.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68409394180:android:ebe6773c75fd26dbabe151",
+        "android_client_info": {
+          "package_name": "com.example.repetitorstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68409394180-i0v7h92adpotdk4pgruc9h27m03is4a9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVZ3nu6XHx466uACle6JtMugjUTmkN3UM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68409394180-i0v7h92adpotdk4pgruc9h27m03is4a9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
