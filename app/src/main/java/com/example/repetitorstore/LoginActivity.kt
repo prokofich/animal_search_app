@@ -7,6 +7,10 @@ import android.view.WindowManager
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_login.*
+/*
+Активити для входа с помощью пароля и почты
+Можно перейти в активити с регистрацией
+ */
 
 class LoginActivity : AppCompatActivity() {
 
@@ -37,8 +41,6 @@ class LoginActivity : AppCompatActivity() {
             InputUser()
         }
         //////////////////////////////////////////////////////
-
-
 
     }
     //ФУНКЦИЯ ВХОДА ЗАРЕГИСТРИРОВАННОГО ПОЛЬЗОВАТЕЛЯ////////////////////////////////////////////////

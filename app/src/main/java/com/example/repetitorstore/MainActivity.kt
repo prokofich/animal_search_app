@@ -7,6 +7,9 @@ import androidx.fragment.app.Fragment
 import com.example.repetitorstore.fragments.AccountFragment
 import com.example.repetitorstore.fragments.TapeFragment
 import kotlinx.android.synthetic.main.activity_main.*
+/*
+Активити с меню и окном для фрагментов(лента объявлений и профиль юзера)
+ */
 
 class MainActivity : AppCompatActivity() {
 

@@ -23,7 +23,7 @@ class FoundAnimalActivity : AppCompatActivity() {
 
         val number = intent.getIntExtra("key1",100)
 
-        //ОТПРАВКА СООБЩЕНИЯ В БАЗУ/////////////////////////////////////////////////////////////////
+        //ОТПРАВКА СООБЩЕНИЯ О НАХОДКЕ В БАЗУ/////////////////////////////////////////////////////////////////
         id_fa_button.setOnClickListener {
 
             mFirestore.collection("All_News").document("$number")

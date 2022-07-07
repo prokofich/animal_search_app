@@ -10,6 +10,9 @@ import com.example.repetitorstore.firestore.FIRESTORE
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.android.synthetic.main.activity_settings.*
+/*
+Активити с настройками для возможности выхода из аккаунта и редактирования своих данных
+ */
 
 class SettingsActivity : AppCompatActivity() {
 
@@ -32,8 +35,6 @@ class SettingsActivity : AppCompatActivity() {
             addWindowRedactData()
         }
         ////////////////////////////////////////
-
-
     }
 
 

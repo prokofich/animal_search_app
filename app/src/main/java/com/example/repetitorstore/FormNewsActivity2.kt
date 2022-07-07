@@ -10,6 +10,9 @@ import com.example.repetitorstore.model.NUMBER
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.android.synthetic.main.activity_form_news2.*
+/*
+Активити для редактирования объявления
+ */
 
 class FormNewsActivity2 : AppCompatActivity() {
 
@@ -34,8 +37,8 @@ class FormNewsActivity2 : AppCompatActivity() {
             .addOnSuccessListener { task ->
 
                 var news = task.toObject(NEWSAccount::class.java)
-                id_formnews2_name.setText(news!!.name)
-                id_formnews2_text.setText(news!!.text)
+                id_formnews2_name.setText(news!!.name)// ПОКАЗ СТАРОГО ИМЕНИ ОБЪЯВЛЕНИЯ
+                id_formnews2_text.setText(news!!.text)// ПОКАЗ СТАРОГО ТЕКСТА К ОБЪЯВЛЕНИЮ
 
             }
 
@@ -48,7 +51,7 @@ class FormNewsActivity2 : AppCompatActivity() {
             mFirestore.collection("NEWS_USERS").document(FIRESTORE().getCurrentUserId())
                 .collection("$number")
                 .document("$number")
-                .update("name",new_name,"text",new_text)
+                .update("name",new_name,"text",new_text)// СОХРАНЕНИЕ НОВОЙ ИНФОРМАЦИИ
 
             mFirestore.collection("NEWS_USERS").document(FIRESTORE().getCurrentUserId())
                 .collection("number_news")
@@ -59,17 +62,13 @@ class FormNewsActivity2 : AppCompatActivity() {
                     val number_in_tape = task.toObject(NUMBER::class.java)
 
                     mFirestore.collection("All_News").document("${number_in_tape!!.number}")
-                        .update("name",new_name,"text",new_text)
+                        .update("name",new_name,"text",new_text)// СОХРАНЕНИЕ НОВОЙ ИНФОРМАЦИИ
                     Toast.makeText(this,"данные изменены",Toast.LENGTH_SHORT).show()
-
-
-
                 }
             finish()
         }
         ///////////////////////////////////////////////////////////
 
     }
-
 
 }

@@ -32,24 +32,6 @@ class FormNewsActivity : AppCompatActivity() {
         ///////////////////////////////////////////////
 
         val number = intent.getIntExtra("key2",-1)
-        /*if (number!=-1){
-
-            mFirestore.collection("NEWS_USERS").document(getCurrentUserId())
-                .collection("$number")
-                .document("$number")
-                .get()
-                .addOnSuccessListener { task ->
-
-                    var news = task.toObject(NEWSAccount::class.java)
-                    if (news != null) {
-
-                    }
-
-
-
-                }
-
-        }*/
 
 
         //ОБРАБОТКА СОХРАНЕНИЯ ОБЪЯВЛЕНИЯ///////////////////////////////////////////////////////////
